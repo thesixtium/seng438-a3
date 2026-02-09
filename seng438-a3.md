@@ -122,8 +122,8 @@ The test classes selected are now included in the `org.jfree.data` package in th
 
 - You should import `jmock` 2.x library as you did in Assignment 2
 - If you want to use `junit` 4.x, you should import `junit` 4.x libraries as you did in Assignment 2
-- You can find both libraries in [./seng438-a3-artifacts.zip](./seng438-a3-artifacts.zip).
-- To run `EclEmma` code coverage on `Eclipse`, select coverage button > Coverage As > JUnit Test. Refer Figure 5 to look at the output of coverage.
+- You can find both libraries in [`seng438-a3-artifacts.zip`](./seng438-a3-artifacts.zip).
+- To run `EclEmma` code coverage on `Eclipse`, select coverage button > Coverage As > `JUnit` Test. Refer Figure 5 to look at the output of coverage.
 
 <img src="media/5.jpg" alt="media/5.jpg" width="360"/>
 
@@ -234,7 +234,7 @@ This lab is part of a software-testing laboratory courseware available under a C
 
 # 7 References
 
-1.  "Eclipse.org," Internet: [http://www.eclipse.org](http://www.eclipse.org/)
+1.  "`Eclipse.org`," Internet: [http://www.eclipse.org](http://www.eclipse.org/)
 
 2.  "`JFreeChart`," Internet: <http://www.jfree.org/jfreechart>
 
