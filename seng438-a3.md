@@ -38,30 +38,30 @@ Some coverage tools are listed below. You are free to choose your tool from that
 
 **List of code coverage tools:**
 
-- **EclEmma** [(http://www.eclemma.org/](http://www.eclemma.org/)) --> (recommended tool)
+- **EclEmma** ([http://www.eclemma.org/](http://www.eclemma.org/)) --> (recommended tool)
 
-- **CodeCover** [(http://codecover.org/](http://codecover.org/))
+- **CodeCover** ([http://codecover.org/](http://codecover.org/))
 
 - **Clover** ([http://www.atlassian.com/software/clover](http://www.atlassian.com/software/clover))
 
-- **JaCoCo** [(http://www.eclemma.org/jacoco/](http://www.eclemma.org/jacoco/))
+- **JaCoCo** ([http://www.eclemma.org/jacoco/](http://www.eclemma.org/jacoco/))
 
-- **Coverlipse** [(http://coverlipse.sourceforge.net/](http://coverlipse.sourceforge.net/))
+- **Coverlipse** ([http://coverlipse.sourceforge.net/](http://coverlipse.sourceforge.net/))
 
-- **Cobertura** [(http://cobertura.github.io/cobertura/](http://cobertura.github.io/cobertura/))
+- **Cobertura** ([http://cobertura.github.io/cobertura/](http://cobertura.github.io/cobertura/))
 
 **NOTE:** most coverage tools have issues with mocking plug-ins. If you face problems that could not be solved. Replace your test that uses a mock with a test case that uses the actual dependent on components (only for the sake of simplicity).
 
 ## 1.4 System Under Test
 
-The system to be tested for this assignment is JFreeChart [2], the same SUT used in Assignment \#2. The JFreeChart framework is intended to be integrated into other systems as a quick and simple way to add charting functionality to other Java applications. With this in mind, the API for JFreeChart is required to be relatively simple to understand, as it is intended to be used by developers as an open source off-the-shelf framework
+The system to be tested for this assignment is JFreeChart [2], the same SUT used in Assignment \#2. The JFreeChart framework is intended to be integrated into other systems as a quick and simple way to add charting functionality to other Java applications. With this in mind, the API for JFreeChart is required to be relatively simple to understand, as it is intended to be used by developers as an open source off-the-shelf framework.
 
 
 # 2 Familiarization
 
-ALL students should ensure that they understand the concepts in this section before moving on to the rest of the assignment.
+All students should ensure that they understand the concepts in this section before moving on to the rest of the assignment.
 
-1.  If you haven’t done so already, download the JFreeChart v2.0.zip file from Github repository [./seng438-a3-artifacts.zip](./seng438-a3-artifacts.zip).
+1.  If you haven’t done so already, download the [seng438-a3-artifacts.zip](./seng438-a3-artifacts.zip) file (which contains the JFreeChart artifacts and jfreechart-1.0.19).
 2.  Extract the contents of the .zip file into a known location.
 3.  After extracting the main zipped folder, go into the extracted folder and also extract any sub-folders (into the current location) if required.
 
@@ -69,7 +69,7 @@ ALL students should ensure that they understand the concepts in this section bef
 
 1.  Open Eclipse.
 2.  Open the _New Project_ dialog by selecting the _File -\> New -\> Project_…
-3.  Under the folder Java, ensure that _Java Project_ is selected and in Use and execution environment JRE click on vesrsion8 (or JavaSE-1.8) and then click _Next_.
+3.  Under the folder Java, ensure that _Java Project_ is selected and in Use and execution environment JRE click on version8 (or JavaSE-1.8) and then click _Next_.
 4.  The dialog should now be prompting for the project name. Enter _JFreeChart_Lab3_ in the _Project Name_ field and click _Finish_. Refer Figure 1.
 5.  Right click on the src folder of your project and click _import_
 6.  In the _Import_ dialog, select the _File System_ option (in the _General_ category) and click _Next_.
@@ -163,7 +163,7 @@ To become more familiar with data flow coverage and achieve a deeper understandi
 
 In this section, you will be required to **design new unit tests** for two classes to increase their code coverage. The classes to be tested are: org.jfree.data.DataUtilities and org.jfree.data.Range. Note that although the focus in adequacy criteria has changed (it is now on source code), to develop new test cases the test oracle should still be derived from the requirements (as contained in the Javadocs of the SUT)
 
-As with any testing to be done, to begin with, a plan must be created. Document this test plan, as it will be included with your lab report. This plan should include information about who will create which tests, how you plan to develop tests to achieve the adequacy criteria. For thiassignment, a test suite should be developed which has at least thfollowing coverage for each of the classes under test
+As with any testing to be done, to begin with, a plan must be created. Document this test plan, as it will be included with your lab report. This plan should include information about who will create which tests, how you plan to develop tests to achieve the adequacy criteria. For this assignment, a test suite should be developed which has at least the following coverage for each of the classes under test
 
 Minimum coverage:
 
@@ -219,7 +219,7 @@ Students will be required to submit a report on their work in the assignment as 
 | Manual data-flow coverage calculations the two mentioned methods                                                                                                                         | 10% |
 | A detailed description of the testing strategy for the new unit tests                                                                                                                    | 5%  |
 | A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage                                             | 5%  |
-| A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)                                     | 5%  |
+| A detailed report of the coverage achieved of each class and method (a screenshot from the code cover results in green and red color would suffice)                                     | 5%  |
 | Pros and cons of the coverage tools tried by your group in this assignment, in terms of reported measures, integration with the IDE and other plug-ins, user friendliness, crashes, etc. | 5%  |
 | A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.                                                               | 5%  |
 | A discussion on how the team work/effort was divided and managed                                                                                                                         | 2%  |
