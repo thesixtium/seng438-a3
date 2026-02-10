@@ -52,6 +52,12 @@ Some coverage tools are listed below. You are free to choose your tool from that
 
 **NOTE:** most coverage tools have issues with mocking plug-ins. If you face problems that could not be solved. Replace your test that uses a mock with a test case that uses the actual dependent on components (only for the sake of simplicity).
 
+**Important:** This lab uses **`JUnit` 5 (Jupiter)** for unit testing and **`Mockito`** for mocking. All required JAR files are provided in the assignment artifact package ([`seng438-a3-artifacts.zip`](./seng438-a3-artifacts.zip)). **Do not add JUnit from Eclipse** and **do not use JUnit 4**. Use the JARs from the artifact when configuring your build path. Make sure your project uses **`JavaSE-1.8`** (Java 8) as the execution environment, as shown in the setup steps in Section 2.1. When creating a new test case in Eclipse, select **New JUnit Jupiter test** (JUnit 5), as shown below.
+
+<img src="media/6.png" alt="New JUnit Test Case dialog with JUnit Jupiter selected" width="480"/>
+
+**Figure 1a - New JUnit Test Case: select JUnit 5 (Jupiter), not JUnit 3 or JUnit 4**
+
 ## 1.4 System Under Test
 
 The system to be tested for this assignment is `JFreeChart` [2], the same SUT used in Assignment \#2. The `JFreeChart` framework is intended to be integrated into other systems as a quick and simple way to add charting functionality to other Java applications. With this in mind, the API for `JFreeChart` is required to be relatively simple to understand, as it is intended to be used by developers as an open source off-the-shelf framework.
@@ -70,7 +76,7 @@ All students should ensure that they understand the concepts in this section bef
 1.  Open Eclipse.
 2.  Open the _New Project_ dialog by selecting the _File -\> New -\> Project_…
 3.  Under the folder Java, ensure that _Java Project_ is selected and in Use and execution environment JRE click on `version8` (or `JavaSE-1.8`) and then click _Next_.
-4.  The dialog should now be prompting for the project name. Enter _`JFreeChart_Lab3`_ in the _Project Name_ field and click _Finish_. Refer Figure 1.
+4.  The dialog should now be prompting for the project name. Enter _`JFreeChart_Lab3`_ in the _Project Name_ field and click _Next >_. Refer Figure 1.
 5.  Right click on the `src` folder of your project and click _import_
 6.  In the _Import_ dialog, select the _File System_ option (in the _General_ category) and click _Next_.
 7.  In the new panel on the _Import_ dialog, click on the _Browse…_ button, then navigate to the `JFreeChart 1.0.19` directory and select _`source`_ folder (do not double-click) and click on _Select Folder_ button.
@@ -120,9 +126,7 @@ The test classes selected are now included in the `org.jfree.data` package in th
 
 **Note**:
 
-- You should import `jmock` 2.x library as you did in Assignment 2
-- If you want to use `junit` 4.x, you should import `junit` 4.x libraries as you did in Assignment 2
-- You can find both libraries in [`seng438-a3-artifacts.zip`](./seng438-a3-artifacts.zip).
+- Use **`JUnit` 5 (Jupiter)** and **`Mockito`** for testing and mocking. Add the required JARs from [`seng438-a3-artifacts.zip`](./seng438-a3-artifacts.zip) to your project’s build path. Do not add JUnit from Eclipse’s built-in library and do not use JUnit 4.
 - To run `EclEmma` code coverage on `Eclipse`, select coverage button > Coverage As > `JUnit` Test. Refer Figure 5 to look at the output of coverage.
 
 <img src="media/5.jpg" alt="media/5.jpg" width="360"/>
