@@ -89,7 +89,7 @@ All students should ensure that they understand the concepts in this section bef
 ### 2.1.1 Adding Necessary External Java Libraries
 1. You can add external libraries by going to the Properties of the Project. To access that first right-click on the _`src`_ -> Hover over the _Build Path_ -> Select _Configure Build Path_.
 2. The Java Settings dialog should now be displayed. This dialog has five tabs along the top: Source, Projects, Libraries, Order and Export and Module Dependencies. Move to the Libraries tab, and click the Add External JARs (or Libraries)… button.
-3. Select the `jfreechart-1.0.19-demo.jar` file from the known location that you already extracted in and click Open. Click Add External Libraries… again, this time add all the `.jar` files from the `lib` and `lib/Jmock` directory where you have unzipped the `jfreechart-1.0.19.zip` file. The Java Settings dialog should now look like Figure 2, below.
+3. Select the `jfreechart-1.0.19-demo.jar` file from the known location that you already extracted in and click Open. Click Add External Libraries… again, this time add all the `.jar` files from the `lib` directory where you have unzipped the `jfreechart-1.0.19.zip` file. The Java Settings dialog should now look like Figure 2, below.
 
 **NOTE:** You might need to follow the steps in assignment 2 for _Adding External Libraries_ so then you have the _External Libraries_ as well. This can be found in Assignment 2 -> `readme` file -> section "2.2.2 Add the Necessary Java Libraries".
 
