@@ -76,7 +76,7 @@ All students should ensure that they understand the concepts in this section bef
 1.  Open Eclipse.
 2.  Open the _New Project_ dialog by selecting the _File -\> New -\> Project_…
 3.  Under the folder Java, ensure that _Java Project_ is selected and in Use and execution environment JRE click on `version8` (or `JavaSE-1.8`) and then click _Next_.
-4.  The dialog should now be prompting for the project name. Enter _`JFreeChart_Lab3`_ in the _Project Name_ field and click _Next >_. Refer Figure 1.
+4.  The dialog should now be prompting for the project name. Enter _`JFreeChart_Lab3`_ in the _Project Name_ field and click _Finish_. Refer Figure 1.
 5.  Right click on the `src` folder of your project and click _import_
 6.  In the _Import_ dialog, select the _File System_ option (in the _General_ category) and click _Next_.
 7.  In the new panel on the _Import_ dialog, click on the _Browse…_ button, then navigate to the `JFreeChart 1.0.19` directory and select _`source`_ folder (do not double-click) and click on _Select Folder_ button.
