@@ -1,4 +1,4 @@
-package org.jfree.data;
+package org.jfree.test.data;
 
 import org.jfree.data.DataUtilities;
 import org.jfree.data.test.datautilities.*;

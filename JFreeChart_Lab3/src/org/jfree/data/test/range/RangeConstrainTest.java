@@ -1,4 +1,4 @@
-package org.jfree.data.test;
+package org.jfree.data.test.range;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.jfree.data.Range;
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeAll;
  * Upper and Lower bound denoted by (x,y)
  * fail("Not yet implemented");
  */
-class RangeConstrainTest{
+public class RangeConstrainTest{
 	static private Range exampleRange;
 	
 	@BeforeAll

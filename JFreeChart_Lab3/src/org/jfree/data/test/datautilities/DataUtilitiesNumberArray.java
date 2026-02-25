@@ -1,4 +1,4 @@
-package org.jfree.data.test;
+package org.jfree.data.test.datautilities;
 
 import static org.junit.jupiter.api.Assertions.*;
 

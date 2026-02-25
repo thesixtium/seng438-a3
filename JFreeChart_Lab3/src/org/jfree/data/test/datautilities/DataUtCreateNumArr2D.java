@@ -1,4 +1,4 @@
-package org.jfree.data.test;
+package org.jfree.data.test.datautilities;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.jfree.data.DataUtilities;
@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
  * double[][]
  */
 
-class DataUtCreateNumArr2D{
+public class DataUtCreateNumArr2D{
 	static private DataUtilities exampleDataUt;
 	static private double [][] arr;
 	
