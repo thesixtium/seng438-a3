@@ -1,19 +1,15 @@
 package org.jfree.test.data;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.jfree.data.Range;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.jfree.data.test.range.*;
-import org.junit.runners.Suite;
-import org.junit.runner.RunWith;
+import org.jfree.test.data.range.*;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.Suite;
 
-@RunWith(Suite.class)
-@Suite.SuiteClasses({
-	CombineTests.class,
+@Suite
+@SelectClasses({
+    CombineTests.class,
     RangeConstrainTest.class,
     RangeExpandTest.class,
-	Range_contains_test.class,
-	RangeEqualsTest.class
-	})
-public class RangeTest extends Range {}
+    Range_contains_test.class,
+    RangeEqualsTest.class
+})
+public class RangeTest {}

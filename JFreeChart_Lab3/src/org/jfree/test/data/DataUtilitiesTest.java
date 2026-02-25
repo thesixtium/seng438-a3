@@ -1,16 +1,15 @@
 package org.jfree.test.data;
 
-import org.jfree.data.DataUtilities;
-import org.jfree.data.test.datautilities.*;
-import org.junit.runners.Suite;
-import org.junit.runner.RunWith;
+import org.jfree.test.data.datautilities.*;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.Suite;
 
-@RunWith(Suite.class)
-@Suite.SuiteClasses({
-	GetCumulativePercentagesTests.class,
-	DataUtCreateNumArr2D.class,
-	DataUtilitiesCalculateColumnTotalTest.class,
-	DataUtilitiesRowTotalTest.class,
-	DataUtilitiesNumberArray.class
-	})
-public class DataUtilitiesTest extends DataUtilities {}
+@Suite
+@SelectClasses({
+    GetCumulativePercentagesTests.class,
+    DataUtCreateNumArr2D.class,
+    DataUtilitiesCalculateColumnTotalTest.class,
+    DataUtilitiesRowTotalTest.class,
+    DataUtilitiesNumberArray.class
+})
+public class DataUtilitiesTest {}
