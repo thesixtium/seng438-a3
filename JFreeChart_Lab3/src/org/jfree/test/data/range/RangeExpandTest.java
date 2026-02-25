@@ -60,4 +60,12 @@ public class RangeExpandTest {
     	assertEquals(newRange, Range.expand(oldRange, lowerMargin, upperMargin));
     }
     
+    @Test
+    void RangeExpands_WhenLowerExceedsUpper_ReturnsMidpoint() {
+        oldRange = new Range(5, 10);
+        double midpoint = 7.5;
+        newRange = new Range(midpoint, midpoint);
+        assertEquals(newRange, Range.expand(oldRange, -3.0, -3.0));
+    }
+    
 }
