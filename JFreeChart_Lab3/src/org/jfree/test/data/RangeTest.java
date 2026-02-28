@@ -6,7 +6,7 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectClasses({
-    CombineTests.class,
+    RangeCombineTest.class,
     RangeConstrainTest.class,
     RangeExpandTest.class,
     Range_contains_test.class,
