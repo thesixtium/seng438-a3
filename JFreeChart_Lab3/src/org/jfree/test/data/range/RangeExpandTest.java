@@ -27,12 +27,14 @@ public class RangeExpandTest {
     }
     
     @Test
+    // Taken from A2
     void RangeExpands_WithValidNumbers() {
     	newRange = new Range(3, 18);
     	assertEquals(newRange, Range.expand(oldRange, lowerMargin, upperMargin));
     }
     
     @Test
+    // Taken from A2
     void RangeIsNull_ThrowIllegalArgumentError() {
     	assertThrows(IllegalArgumentException.class, ()-> {
     		Range.expand(null, lowerMargin, upperMargin);
@@ -40,6 +42,7 @@ public class RangeExpandTest {
     }
     
     @Test
+    // Taken from A2
     void LowerMarginNotNumeric_ThrowIllegalArgumentError() {
     	assertThrows(IllegalArgumentException.class, ()-> {
     		Range.expand(oldRange, 'a', upperMargin);
@@ -47,6 +50,7 @@ public class RangeExpandTest {
     }
     
     @Test
+    // Taken from A2
     void RangeExpands_WithNegativeLowerMargin() {
     	double lowerMargin = -0.40;
     	newRange = new Range(7, 18);
@@ -54,18 +58,25 @@ public class RangeExpandTest {
     }
     
     @Test
+    // Taken from A2
     void ZeroRange_NoChangeWithExpand() {
     	oldRange = new Range(5, 5);
     	newRange = new Range(5, 5);
     	assertEquals(newRange, Range.expand(oldRange, lowerMargin, upperMargin));
     }
     
+    // For statement coverage, the if (lower > upper) is never called, therefore a new test is added for better coverage
     @Test
-    void RangeExpands_WhenLowerExceedsUpper_ReturnsMidpoint() {
-        oldRange = new Range(5, 10);
-        double midpoint = 7.5;
-        newRange = new Range(midpoint, midpoint);
-        assertEquals(newRange, Range.expand(oldRange, -3.0, -3.0));
+    void lowerGreaterthanUpper() {
+    	double upperMargin = -1.60;
+    	newRange = new Range(0.7, 0.7);
+    	assertEquals(newRange, Range.expand(oldRange, lowerMargin, upperMargin));
     }
     
+    @Test
+    void lowerEqualsUpper() {
+    	double upperMargin = -1.4;
+    	newRange = new Range(3, 3);
+    	assertEquals(newRange, Range.expand(oldRange, lowerMargin, upperMargin));
+    }
 }
