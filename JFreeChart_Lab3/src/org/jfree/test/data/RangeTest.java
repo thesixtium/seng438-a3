@@ -10,6 +10,8 @@ import org.junit.platform.suite.api.Suite;
     RangeConstrainTest.class,
     RangeExpandTest.class,
     Range_contains_test.class,
-    RangeEqualsTest.class
+    RangeEqualsTest.class,
+    ExpandToIncludeTest.class,
+    toStringTest.class
 })
 public class RangeTest {}
