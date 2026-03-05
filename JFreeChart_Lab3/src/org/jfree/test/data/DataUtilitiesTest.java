@@ -8,7 +8,7 @@ import org.junit.platform.suite.api.Suite;
 @SelectClasses({
     GetCumulativePercentagesTests.class,
     DataUtCreateNumArr2D.class,
-    DataUtilitiesCalculateColumnTotalTest.class,
+    CalculateColumnTotalTest.class,
     DataUtilitiesRowTotalTest.class,
     DataUtilitiesNumberArray.class
 })
