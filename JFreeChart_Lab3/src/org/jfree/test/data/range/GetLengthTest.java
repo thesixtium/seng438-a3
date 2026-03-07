@@ -1,4 +1,4 @@
-package org.jfree.data.data.range;
+package org.jfree.test.data.range;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -42,3 +42,4 @@ class GetLengthTest{
         		"Length should be 21" );
     }
 }
+
