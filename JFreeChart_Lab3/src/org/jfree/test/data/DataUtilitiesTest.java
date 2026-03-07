@@ -10,6 +10,7 @@ import org.junit.platform.suite.api.Suite;
     DataUtCreateNumArr2D.class,
     CalculateColumnTotalTest.class,
     DataUtilitiesRowTotalTest.class,
-    DataUtilitiesNumberArray.class
+    DataUtilitiesNumberArray.class,
+    CalcRowTotalWColTest.class
 })
 public class DataUtilitiesTest {}
