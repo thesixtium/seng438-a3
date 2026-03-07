@@ -1,4 +1,4 @@
-package org.jfree.test.data.datautilities;
+package org.jfree.data.data.datautilities;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -74,4 +74,5 @@ public class DataUtilitiesRowTotalTest {
         assertEquals(0.0, total, 1e-9);
         verify(values, never()).getValue(anyInt(), anyInt());
     }
+    
 }
