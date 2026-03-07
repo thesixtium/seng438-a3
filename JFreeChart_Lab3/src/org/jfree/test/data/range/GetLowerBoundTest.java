@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.jfree.data.data.range;
+package org.jfree.test.data.range;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -55,3 +55,4 @@ class GetLowerBoundTest{
 	            "Lower Bound should be -3.46");
 	}
 }
+
