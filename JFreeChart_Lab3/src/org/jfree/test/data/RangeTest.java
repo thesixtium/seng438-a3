@@ -12,6 +12,10 @@ import org.junit.platform.suite.api.Suite;
     Range_contains_test.class,
     RangeEqualsTest.class,
     ExpandToIncludeTest.class,
-    toStringTest.class
+    toStringTest.class,
+    GetLengthTest.class,
+    GetUpperBoundTest.class,
+    GetLowerBoundTest.class
+    getCentralValueTest.class
 })
 public class RangeTest {}
