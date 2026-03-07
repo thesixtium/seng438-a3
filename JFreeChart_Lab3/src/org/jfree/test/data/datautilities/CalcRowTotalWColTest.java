@@ -1,4 +1,4 @@
-package org.jfree.data.data.datautilities;
+package org.jfree.test.data.datautilities;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyInt;
@@ -94,3 +94,4 @@ class CalcRowTotalWColTest{
     }
 
 }
+
