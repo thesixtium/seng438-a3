@@ -10,7 +10,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class CalculateColumnTotalTest {
-
+// Please note that the second for loop in the calculatecolumnTotal(data, column) method is INFEASIBLE. Coverage will never reach 100%
+// Please note that the if (total > 0) statement in the calculatecolumnTotal(data, column, validrows) method is INFEASIBLE. Coverage will never reach 100%
 	private Values2D values;
 	
 	// Initializing sample table to use for test cases
@@ -109,3 +110,4 @@ class CalculateColumnTotalTest {
     }
 
 }
+
