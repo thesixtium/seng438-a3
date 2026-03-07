@@ -1,4 +1,4 @@
-package org.jfree.data.data.range;
+package org.jfree.test.data.range;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -56,4 +56,5 @@ class getCentralValueTest{
 	            "Central value should be 0.2");
 	}
 }
+
 
